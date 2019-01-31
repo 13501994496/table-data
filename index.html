@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style/JS30try.css">
+    </head>
+    <body>
+        <script type="text/javascript" src="../script/JS39try.js"></script>
+        <script type="text/javascript" src="../script/JS30try(1).js"></script>
+        <script type="text/javascript" src="../script/JS30data.js"></script>
+        <script type='text/javascript' src='../script/JS34stuty_bar.js'></script>
+        <script type='text/javascript' src='../script/JS34study_line.js'></script>
+        <fieldset>
+            <legend>筛选您要查看的商品销售数据</legend>
+            <div id="address" class="select">
+                    <input type="checkbox" id="alladdress"><laber for="alladdress">所有项</laber>
+                    <input type="checkbox" id="east" value="华东"><label for="east">华东</label>
+                    <input type="checkbox" id="south" value="华南"><label for="south">华南</label>
+                    <input type="checkbox" id="north" value="华北"><label for="north">华北</label>               
+            </div>
+            <div id="goods" class="select">
+                    <input type="checkbox" id="allgoods"><label for="allgoods">所有项</label>
+                    <input type="checkbox" id="phone" value="手机"><label for="phone">手机</label>
+                    <input type="checkbox" id="pc" value="笔记本"><label for="id">笔记本</label>
+                    <input type="checkbox" id="speaker" value="智能音箱"><label for="speaker">智能音箱</label>    
+            </div>   
+        </fieldset>
+        <div id="barandchat">
+            <svg id="bar" height="220" width="600"></svg>
+            <canvas id="line" height="220" width="600"></canvas>
+        </div>
+        <div id="table"></div>
+    </body>
+</html>
