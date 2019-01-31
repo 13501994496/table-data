@@ -1,0 +1,16 @@
+/*1.div table*/
+legend{background-color: black;color:white;display: block;}
+.select{float:left;margin:0.1px 20px;}
+#table{margin-top:10px;}
+/*2.div bar && line*/
+#bar{border:1px solid black;margin-top:1px;float:left;}
+#line{border:1px solid black;margin-top:1px; margin-left:10px;}
+/*3.table detail*/
+table{border:1px solid black;text-align: center;border-collapse:collapse;}
+table td{border:1px solid black;width:70px;}
+table th{border:1px solid black;background-color:gray;color:white;width:70px;}
+/*3(2).点击表格转化input事件*/
+i{font-size:6px;color:gray;display:none;}
+span{display:none;}
+.active{display:inline;}
+td input{width:20px;display:none;}
